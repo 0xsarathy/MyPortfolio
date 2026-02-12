@@ -125,3 +125,23 @@ footer {
     transform: translateY(0);
   }
 }
+.profile-pic{
+  height: 110px;
+  width: 100px;
+}
+.btn{
+  color: white;
+  padding: 10px;
+}
+.cta-buttons{
+  margin-top: 10px;
+
+}
+
+.btn:hover{
+  color: greenyellow;
+
+}
+a{
+  color: white;
+}
