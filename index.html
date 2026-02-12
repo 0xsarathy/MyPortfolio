@@ -5,14 +5,22 @@
   <title>Parthasarathy K | Cyber Security Portfolio</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
-<header>
+<!-- HERO -->
+<header id="hero">
+  <img src="profile.jpg" alt="Parthasarathy K" class="profile-pic">
   <h1>Parthasarathy K</h1>
   <p>Cyber Security Analyst | VAPT | Networking</p>
+  <div class="cta-buttons">
+    <a href="#projects" class="btn">View Projects</a>
+    <a href="#contact" class="btn btn-secondary">Hire Me</a>
+  </div>
 </header>
 
+<!-- NAV -->
 <nav>
   <a href="#about">About</a>
   <a href="#skills">Skills</a>
@@ -22,55 +30,76 @@
   <a href="#education">Education</a>
 </nav>
 
+<!-- ABOUT -->
 <section id="about">
   <h2>About Me</h2>
-  <p>
-Parthasarathy K is a passionate cybersecurity professional with a solid academic base in B.E. 
-Cyber Security and hands-on exposure to real-world security assessments, aiming to grow in entry-level security roles while actively protecting digital assets. He has strong domain knowledge in networking, including OSI and TCP/UDP models, IPv4/IPv6 addressing with subnetting, VLAN configuration, NAT/PAT, ACLs, and optimized BGP-based routing, which positions him well for roles that demand both network design and secure infrastructure management. 
-On the systems side, he is comfortable with Linux administration, using essential commands for system management, and configuring web servers like Apache, Nginx, and XAMPP, as well as Samba and FTP services for file sharing and remote access, showing good versatility across server environments. His security skill set covers practical use of tools such as Nmap and Netcat for reconnaissance, Wireshark for packet analysis and anomaly detection, Metasploit for exploitation, and a conceptual understanding of SSL/TLS, SSH, and IPsec, reflecting a blend of offensive and defensive capabilities. 
-Technically, he is equipped with certifications in CCNA, Linux system & security, and CEH, and has project experience in VoIP call tracing using Wireshark, along with current experience as a VAPT Analyst at Lax360 Pvt Ltd, where he performs web application testing, identifies issues like CORS and misconfigurations, and prepares detailed vulnerability reports with remediation steps—demonstrating both analytical depth and professional report-writing ability
-  </p>
-</section>
-
-<section id="skills">
-  <h2>Skills</h2>
-  <div class="grid">
-    <div class="card">VAPT & Web Security</div>
-    <div class="card">Networking (TCP/IP, OSI)</div>
-    <div class="card">Linux & Windows Server</div>
-    <div class="card">Nmap, Burp, Wireshark</div>
+  <div class="about-content">
+    <p>Hi! I’m Parthasarathy K, a cybersecurity professional specializing in VAPT & Networking.</p>
+    <p>Hands-on experience with Nmap, Burp Suite, Wireshark, Metasploit, and Linux/Windows administration.</p>
+    <p>Currently working as VAPT Analyst at Lax360 Pvt Ltd, performing web application testing, vulnerability reporting, and remediation.</p>
+    <p>Achievements: Conducted security audits on multiple networks, identifying and remediating high-risk vulnerabilities.</p>
   </div>
 </section>
 
+<!-- SKILLS -->
+<section id="skills">
+  <h2>Skills</h2>
+  <div class="skills-grid">
+    <div class="skill">
+      <h3>Networking</h3>
+      <div class="bar"><span style="width:90%"></span></div>
+    </div>
+    <div class="skill">
+      <h3>VAPT</h3>
+      <div class="bar"><span style="width:85%"></span></div>
+    </div>
+    <div class="skill">
+      <h3>Linux/Windows Server</h3>
+      <div class="bar"><span style="width:80%"></span></div>
+    </div>
+    <div class="skill">
+      <h3>Tools (Nmap, Burp, Wireshark)</h3>
+      <div class="bar"><span style="width:85%"></span></div>
+    </div>
+  </div>
+</section>
+
+<!-- EXPERIENCE -->
 <section id="experience">
   <h2>Experience</h2>
   <div class="card">
     <h3>VAPT Analyst – Lax360 Pvt Ltd</h3>
-    <p>Web application security testing, CORS issues, reports & remediation.</p>
+    <p>Web application testing, CORS issues, vulnerability reporting & remediation.</p>
   </div>
 </section>
 
+<!-- PROJECTS -->
 <section id="projects">
   <h2>Projects</h2>
-  <div class="card">VOIP Call Tracing – Wireshark</div>
-  <div class="card">Person Re-Identification Project</div>
+  <div class="projects-grid">
+    <div class="card">
+      <h3>VOIP Call Tracing – Wireshark</h3>
+      <p>Traced VoIP calls, analyzed traffic patterns, and identified anomalies.</p>
+    </div>
+    <div class="card">
+      <h3>Person Re-Identification Project</h3>
+      <p>Developed a feature-based person re-identification system for security monitoring.</p>
+    </div>
+  </div>
 </section>
 
-<!-- CERTIFICATIONS (HIDDEN INITIALLY) -->
+<!-- CERTIFICATIONS -->
 <section id="certifications" class="hidden">
   <h2>Certifications</h2>
-
   <div class="cert-grid">
     <div class="cert-card">
       <img src="certs/ccna.jpeg">
       <p>CCNA 200-301</p>
     </div>
-
     <div class="cert-card">
       <img src="certs/ceh.jpeg">
-      <p>Ethical Hacker (CEH)</p>
+      <p>Certified Ethical Hacker (CEH)</p>
     </div>
-
     <div class="cert-card">
       <img src="certs/google-cybersecurity.png">
       <p>Google Cybersecurity</p>
@@ -78,11 +107,21 @@ Technically, he is equipped with certifications in CCNA, Linux system & security
   </div>
 </section>
 
+<!-- EDUCATION -->
 <section id="education">
   <h2>Education</h2>
   <p>B.E Cyber Security – 80%</p>
 </section>
 
+<!-- CONTACT -->
+<section id="contact">
+  <h2>Contact Me</h2>
+  <p>Email: <a href="mailto:chiyansarathy2004@gmail.com">chiyansarathy2004@gmail.com</a></p>
+  <p>LinkedIn: <a href="https://www.linkedin.com/in/parthasarathy-k-494767284" target="_blank">linkedin.com/in/parthasarathy-k-494767284</a></p>
+  <p>GitHub: <a href="https://github.com/0xsarathy" target="_blank">github.com/0xsarathy</a></p>
+</section>
+
+<!-- FOOTER -->
 <footer>
   <p>© 2026 Parthasarathy K</p>
 </footer>
