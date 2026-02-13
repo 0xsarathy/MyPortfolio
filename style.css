@@ -120,6 +120,7 @@ h2 {
 
 .about-content {
   width: 90%;
+  padding: 6px;
 }
 
 /* ========================
@@ -652,4 +653,8 @@ color: greenyellow;
 .btn-secondary
 {
 font-weight:300
+}
+.about-content p{
+  padding: 4px;
+  font-size: large;
 }
